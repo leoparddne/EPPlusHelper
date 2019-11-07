@@ -8,11 +8,11 @@ namespace Entity
     {
         [Column]
         [Description(description:"ATest")]
-        public string A { get; set; }
+        public DateTime A { get; set; }
 
         [Column]
         [Description(description: "BTest")]
-        public string B { get; set; }
+        public int B { get; set; }
 
     }
 }

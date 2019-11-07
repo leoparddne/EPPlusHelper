@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -6,14 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="EPPlus" Version="4.5.3.2" />
     <PackageReference Include="ExcelUtility" Version="1.0.8" />
-    <PackageReference Include="NPOI" Version="2.4.1" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Entity\Entity.csproj" />
-    <ProjectReference Include="..\EPPlusHelper\EPPlusHelper.csproj" />
   </ItemGroup>
 
 </Project>

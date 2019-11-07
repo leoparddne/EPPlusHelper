@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29418.71
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{1EDFE6F3-21E7-4AC3-8B34-8262910F376D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{1EDFE6F3-21E7-4AC3-8B34-8262910F376D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{D8CE6B97-6710-4BD5-8161-201B1C37974F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{D8CE6B97-6710-4BD5-8161-201B1C37974F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "Entity\Entity.csproj", "{88E04144-14DD-4069-B4DB-673E7E9E38E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entity", "Entity\Entity.csproj", "{88E04144-14DD-4069-B4DB-673E7E9E38E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPPlusHelper", "EPPlusHelper\EPPlusHelper.csproj", "{E12F705E-D383-41B1-AAD2-594C2BA9C2B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EPPlusHelper", "EPPlusHelper\EPPlusHelper.csproj", "{E12F705E-D383-41B1-AAD2-594C2BA9C2B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

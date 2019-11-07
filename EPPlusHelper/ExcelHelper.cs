@@ -111,5 +111,9 @@ namespace ExcelUtility
         {
             sheet.Cells[i + 1, j + 1].Value = value;
         }
+        public static string GetCell(this ExcelWorksheet sheet, int i, int j)
+        {
+            return sheet.Cells[i + 1, j + 1].Value?.ToString()??"";
+        }
     }
 }
