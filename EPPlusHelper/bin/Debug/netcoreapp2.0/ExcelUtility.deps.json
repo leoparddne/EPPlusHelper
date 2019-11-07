@@ -6,12 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.0": {
-      "EPPlusHelper/1.0.0": {
+      "ExcelUtility/1.0.2": {
         "dependencies": {
           "EPPlus": "4.5.3.2"
         },
         "runtime": {
-          "EPPlusHelper.dll": {}
+          "ExcelUtility.dll": {}
         }
       },
       "EPPlus/4.5.3.2": {
@@ -720,7 +720,7 @@
     }
   },
   "libraries": {
-    "EPPlusHelper/1.0.0": {
+    "ExcelUtility/1.0.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

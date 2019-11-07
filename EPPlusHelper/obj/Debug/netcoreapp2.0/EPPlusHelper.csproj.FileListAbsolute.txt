@@ -6,11 +6,11 @@ D:\code\Test\EPPlusHelper\obj\Debug\netcoreapp2.0\EPPlusHelper.AssemblyInfoInput
 D:\code\Test\EPPlusHelper\obj\Debug\netcoreapp2.0\EPPlusHelper.AssemblyInfo.cs
 D:\code\Test\EPPlusHelper\obj\Debug\netcoreapp2.0\EPPlusHelper.dll
 D:\code\Test\EPPlusHelper\obj\Debug\netcoreapp2.0\EPPlusHelper.pdb
-D:\code\EPPlusHelper-master\EPPlusHelper\bin\Debug\netcoreapp2.0\EPPlusHelper.deps.json
-D:\code\EPPlusHelper-master\EPPlusHelper\bin\Debug\netcoreapp2.0\EPPlusHelper.dll
-D:\code\EPPlusHelper-master\EPPlusHelper\bin\Debug\netcoreapp2.0\EPPlusHelper.pdb
 D:\code\EPPlusHelper-master\EPPlusHelper\obj\Debug\netcoreapp2.0\EPPlusHelper.csprojAssemblyReference.cache
 D:\code\EPPlusHelper-master\EPPlusHelper\obj\Debug\netcoreapp2.0\EPPlusHelper.AssemblyInfoInputs.cache
 D:\code\EPPlusHelper-master\EPPlusHelper\obj\Debug\netcoreapp2.0\EPPlusHelper.AssemblyInfo.cs
-D:\code\EPPlusHelper-master\EPPlusHelper\obj\Debug\netcoreapp2.0\EPPlusHelper.dll
-D:\code\EPPlusHelper-master\EPPlusHelper\obj\Debug\netcoreapp2.0\EPPlusHelper.pdb
+D:\code\EPPlusHelper-master\EPPlusHelper\bin\Debug\netcoreapp2.0\ExcelUtility.deps.json
+D:\code\EPPlusHelper-master\EPPlusHelper\bin\Debug\netcoreapp2.0\ExcelUtility.dll
+D:\code\EPPlusHelper-master\EPPlusHelper\bin\Debug\netcoreapp2.0\ExcelUtility.pdb
+D:\code\EPPlusHelper-master\EPPlusHelper\obj\Debug\netcoreapp2.0\ExcelUtility.dll
+D:\code\EPPlusHelper-master\EPPlusHelper\obj\Debug\netcoreapp2.0\ExcelUtility.pdb

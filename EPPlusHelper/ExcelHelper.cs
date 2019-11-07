@@ -5,7 +5,7 @@ using System.ComponentModel;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.IO;
 
-namespace EPPlusHelper
+namespace ExcelUtility
 {
     public class ExcelHelper : IDisposable
     {
@@ -21,7 +21,12 @@ namespace EPPlusHelper
             }
             package = new ExcelPackage(fileInfo);
         }
-
+        /// <summary>
+        /// 将对象中的数据写入excel
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="data"></param>
+        /// <param name="sheetName"></param>
         public void SetData<T>(IList<T> data, string sheetName = DefaultSheetName)
         {
             //获取待写入数据
@@ -77,12 +82,19 @@ namespace EPPlusHelper
             }
             return result;
         }
+        /// <summary>
+        /// 获取指定的sheet页
+        /// </summary>
+        /// <param name="sheetName"></param>
+        /// <returns></returns>
         public ExcelWorksheet GetWorkSheet(string sheetName = DefaultSheetName)
         {
             worksheet = package.Workbook.Worksheets.Add(sheetName);
             return worksheet;
         }
-
+        /// <summary>
+        /// 保存数据到磁盘中
+        /// </summary>
         public void Save()
         {
             package.Save();
