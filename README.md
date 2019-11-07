@@ -8,10 +8,10 @@ Install-Package ExcelUtility -Version 1.0.0
 
 　需要为对象添加特性，
 
-[Column]
-//试用Column指定需要保存到excel中的字段
-[Description(description:"ATest")]
-//使用Description添加表头显示的名称
+[Column]  
+//试用Column指定需要保存到excel中的字段  
+[Description(description:"ATest")]  
+//使用Description添加表头显示的名称  
 
 
 public class Table
