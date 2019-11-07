@@ -55,3 +55,17 @@ var testData = new List<Entity.Table>() {
                 workSheet.WriteCell(0, 0, "value");  
                 tools.Save();  
             }  
+
+将excel中的数据映射到指定的数据类型  
+要求同上，需要  
+[Column]  
+//试用Column指定需要保存到excel中的字段  
+[Description(description:"ATest")]  
+//使用Description添加表头显示的名称  
+使用方式如下  
+
+//选择需要转换的表格并指定欲转换类型  
+var t = new Excel2Data<Table>(new System.IO.FileInfo("test.xls"));  
+//指定待转换的sheet页,默认值为sheet1  
+//var data = t.GetData();  
+var data=t.GetData("newSheetName");  
