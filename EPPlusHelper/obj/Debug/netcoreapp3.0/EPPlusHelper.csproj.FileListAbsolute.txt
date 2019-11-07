@@ -1,4 +1,0 @@
-D:\code\Test\EPPlusHelper\bin\Debug\netcoreapp3.0\EPPlusHelper.deps.json
-D:\code\Test\EPPlusHelper\bin\Debug\netcoreapp3.0\EPPlusHelper.dll
-D:\code\Test\EPPlusHelper\obj\Debug\netcoreapp3.0\EPPlusHelper.AssemblyInfoInputs.cache
-D:\code\Test\EPPlusHelper\obj\Debug\netcoreapp3.0\EPPlusHelper.AssemblyInfo.cs
