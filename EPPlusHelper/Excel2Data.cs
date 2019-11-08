@@ -49,11 +49,11 @@ namespace ExcelUtility
                 var ISColumn = colAtt.Length > 0;
                 if (ISColumn)
                 {
-                    var Attrss = item.GetCustomAttributes(typeof(DescriptionAttribute), false);
-                    var des = ((DescriptionAttribute)Attrss[0]).Description;
-
+                    //如果后续需要支持表格中的实际位置不是从第一个单元格开始
+                    //可以通过字段的描述信息映射到表格中的表头来实现
+                    //var Attrss = item.GetCustomAttributes(typeof(DescriptionAttribute), false);
+                    //var des = ((DescriptionAttribute)Attrss[0]).Description;
                     mapDic.Add(index, item.Name);
-
                     index++;
                 }
             }
@@ -64,11 +64,20 @@ namespace ExcelUtility
                 {
                     var property = t.GetType().GetProperty(item.Value);
                      var cellValue = worksheet.GetCell(i, item.Key);//单元格中的字符串
-                    var value= Convert.ChangeType(cellValue, property.PropertyType);
-                    property.SetValue(t, value);
+                    try
+                    {
+                        var value = Convert.ChangeType(cellValue, property.PropertyType);
+                        property.SetValue(t, value);
+                    }
+                    catch (Exception)
+                    {
+                        var x = Activator.CreateInstance(property.PropertyType);
+                        property.SetValue(t, x);
+                    }
                 }
+                //如果需要支持复杂对象
+                //可以通过此方式来实现
                 //var data = (T)JsonConvert.DeserializeObject(JsonConvert.SerializeObject(t),typeof(T));
-                //Console.WriteLine("rr");
                 //result.Add(data);
                 result.Add(t);
             }
