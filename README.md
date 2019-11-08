@@ -26,7 +26,7 @@ public class Table
 
     }  
 
-需要注意单元格定位从0开始  
+需要注意单元格定位从0开始，同时需要将待转换的类型传入  
 
 //首先构造需要保存的对象  
 var testData = new List<Entity.Table>() {  
