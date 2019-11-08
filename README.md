@@ -4,7 +4,7 @@ https://www.cnblogs.com/ives/p/ExcelUtility.html
 
 安装:
 
-Install-Package ExcelUtility -Version 1.0.0
+Install-Package ExcelUtility -Version 1.1.4
 
 　需要为对象添加特性，
 
