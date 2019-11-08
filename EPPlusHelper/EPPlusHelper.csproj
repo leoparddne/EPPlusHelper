@@ -10,9 +10,10 @@
     <PackageId>ExcelUtility</PackageId>
     <Authors>ives</Authors>
     <Product>ExcelUtility</Product>
-    <Version>1.1.0</Version>
+    <Version>1.1.4</Version>
     <AssemblyName>ExcelUtility</AssemblyName>
     <RootNamespace>ExcelUtility</RootNamespace>
+    <PackageReleaseNotes>添加对单元格中的数据为空时，将属性值赋值为定义类型的默认值的支持</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
